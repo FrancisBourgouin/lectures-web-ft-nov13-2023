@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SUPER JOKE PARTAY!</h1>
+    </header>
+    <main>
+      <% for(const joke of jokes){ %>
+      <article>
+        <p>Question: <%= joke.question %></p>
+        <p>Answer: <%= joke.answer %></p>
+        <p>By: <%= joke.author_name %></p>
+        <p><a href="/jokes/<%= joke.id %>">Link to joke</a></p>
+      </article>
+      <% } %>
+    </main>
+  </body>
+</html>
