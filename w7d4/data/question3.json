@@ -1,0 +1,46 @@
+{
+  "userId": 8,
+  "question": "I'm working on a laptop that isn't charging properly. It only charges when the charging cable is held at a certain angle. What could be causing this issue?",
+  "replies": [
+    {
+      "userId": 10,
+      "content": "The charging port might be loose or damaged. It's a common issue that could require soldering or replacement."
+    },
+    {
+      "userId": 13,
+      "content": "Inspect the charging cable for any visible damage, such as fraying or bent connectors."
+    },
+    {
+      "userId": 16,
+      "content": "It could be a problem with the charger itself. Test with a different charger to rule that out."
+    },
+    {
+      "userId": 19,
+      "content": "Check if there's any debris or dirt in the charging port. A thorough cleaning might solve the issue."
+    },
+    {
+      "userId": 23,
+      "content": "The laptop's battery might be failing. Try removing it and testing the laptop with just the charger connected."
+    },
+    {
+      "userId": 26,
+      "content": "Look for any loose connections on the laptop's motherboard, especially around the charging circuit."
+    },
+    {
+      "userId": 30,
+      "content": "Try gently bending the charging cable while it's plugged in to see if the connection improves temporarily."
+    },
+    {
+      "userId": 33,
+      "content": "Inspect the charger's plug for any bent pins. Misaligned pins could cause intermittent charging."
+    },
+    {
+      "userId": 35,
+      "content": "If you're comfortable, open the laptop and check for any broken traces near the charging port."
+    },
+    {
+      "userId": 39,
+      "content": "Consider using a charging dock or wireless charging as a workaround if the issue can't be easily fixed."
+    }
+  ]
+}

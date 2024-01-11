@@ -1,0 +1,96 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Navigator {
+  border: 0.5em solid white;
+  padding: 1em;
+  margin: 1em;
+  font-size: 1.5em;
+  text-align: center;
+
+  button {
+    margin: 0 1em;
+    font-size: 1.5em;
+  }
+}
+
+.Header {
+  background-color: #bada55;
+  text-align: center;
+  padding: 1em;
+  color: #333;
+}
+
+.PostHeader {
+  border: 0.5em solid white;
+  padding: 1em;
+  margin: 1em;
+  color: #333;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 2em;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 0 1em;
+    }
+  }
+}
+
+.ReplyForm {
+  border: 0.5em solid white;
+  padding: 1em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+
+  input,
+  button {
+    font-size: 1.5em;
+  }
+  input {
+    width: 70%;
+  }
+}
+
+.ReplyListItem {
+  border: 0.5em solid white;
+  padding: 1em;
+  margin: 1em;
+
+  display: grid;
+  grid-template-areas:
+    "profile reply"
+    "name reply";
+
+  img {
+    grid-area: profile;
+    height: 10em;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  h1 {
+    grid-area: name;
+  }
+
+  p {
+    padding: 1em;
+    grid-area: reply;
+    font-size: 1.5em;
+  }
+}

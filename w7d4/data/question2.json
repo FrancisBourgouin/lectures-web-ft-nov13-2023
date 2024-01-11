@@ -1,0 +1,46 @@
+{
+  "userId": 4,
+  "question": "I'm trying to repair an old stereo amplifier, and there's a constant humming sound coming from the speakers. What could be causing this issue?",
+  "replies": [
+    {
+      "userId": 6,
+      "content": "Check the ground connections. Poor grounding can often lead to unwanted hum."
+    },
+    {
+      "userId": 9,
+      "content": "Inspect the input and output cables for any loose connections or frayed wires."
+    },
+    {
+      "userId": 14,
+      "content": "Test with different audio sources to rule out any issues with the source device."
+    },
+    {
+      "userId": 18,
+      "content": "Look for any damaged or bulging capacitors on the amplifier's circuit board."
+    },
+    {
+      "userId": 22,
+      "content": "Try moving the amplifier to a different power outlet. Electrical interference can sometimes cause humming."
+    },
+    {
+      "userId": 25,
+      "content": "Check if the amplifier's chassis is properly grounded. A loose ground can lead to hum problems."
+    },
+    {
+      "userId": 28,
+      "content": "Inspect the amplifier's transformer and ensure it's not emitting any excess noise."
+    },
+    {
+      "userId": 31,
+      "content": "Experiment with different speaker connections. Faulty speaker wires or connections can cause humming."
+    },
+    {
+      "userId": 34,
+      "content": "Try using a ground loop isolator between the amplifier and the audio source to eliminate potential ground loop issues."
+    },
+    {
+      "userId": 36,
+      "content": "Consider cleaning the amplifier's volume and tone control pots. Dirty pots can introduce noise."
+    }
+  ]
+}
