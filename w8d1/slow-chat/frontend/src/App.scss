@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Header {
+  padding: 2em;
+  background-color: #b0b;
+}
+
+.MessageList {
+  border: 0.25em solid white;
+  padding: 2em;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.MessageListItem {
+  list-style-type: none;
+
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-areas:
+    "profile message"
+    "name date";
+
+  img {
+    grid-area: profile;
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    justify-self: center;
+  }
+  h1 {
+    grid-area: name;
+  }
+  p:first-of-type {
+    grid-area: message;
+    align-self: center;
+  }
+  p:last-of-type {
+    grid-area: date;
+    text-align: right;
+  }
+}
+
+.MessageForm {
+  border: 0.25em solid #c0ffee;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+
+  input,
+  select,
+  button {
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+  }
+  input {
+    width: 100%;
+    max-width: 80ch;
+  }
+}
